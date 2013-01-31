@@ -19,7 +19,7 @@ require 'net/https'
 require 'json'
 begin
   require 'system_timer'
-rescue Gem::LoadError
+rescue LoadError
 end
 
 # Container for methods relating to notifying Squash of exceptions.
